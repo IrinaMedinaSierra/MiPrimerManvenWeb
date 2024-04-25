@@ -24,8 +24,13 @@ home
     <a href="listasytablas.jsp" title="Lista y Tablas"> <span class="material-symbols-outlined">
 list
 </span> </a>
-
+    <a href="formularios.jsp">
+        <span class="material-symbols-outlined">
+edit_note
+</span>
+    </a>
 </div>
+
 <h1>Listas y Tablas en HTML</h1>
 <!--Listas ordenadas-->
 <ol>
@@ -139,9 +144,6 @@ list
             <a href="#" title="Eliminar"> 🗑 </a>
         </td>
     </tr>
-
-
-
 </table>
 
 

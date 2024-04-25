@@ -20,7 +20,11 @@ home
     <a href="listasytablas.jsp" title="Lista y Tablas"> <span class="material-symbols-outlined">
 list
 </span> </a>
-
+    <a href="formularios.jsp">
+        <span class="material-symbols-outlined">
+edit_note
+</span>
+    </a>
 </div>
 
         <!--Encabezados / Titulos -->
