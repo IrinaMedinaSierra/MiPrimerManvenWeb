@@ -1,3 +1,7 @@
+
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<jsp:include page="header.jsp"></jsp:include>
+
 <!doctype html>
 <!-- DocType: le indica al navegador el tipo de documento a mostrar -->
 <html lang="es"> <!-- lan="es" estamos indicando que la página es en español -->
@@ -10,22 +14,9 @@
     <meta name="keyworks" content="Html,jsp,Java">
     <title>Mi primer JSP con HTML</title> <!-- Se considera obligatorio poner un title a cada página-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-
+    <link rel="stylesheet" href="Views/css/style.css">
 </head>
 <body>
-<div>
-    <a href="index.jsp" title="Inicio"><span class="material-symbols-outlined">
-home
-</span> </a>
-    <a href="listasytablas.jsp" title="Lista y Tablas"> <span class="material-symbols-outlined">
-list
-</span> </a>
-    <a href="formularios.jsp">
-        <span class="material-symbols-outlined">
-edit_note
-</span>
-    </a>
-</div>
 
         <!--Encabezados / Titulos -->
 

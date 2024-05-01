@@ -6,31 +6,19 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<jsp:include page="header.jsp"></jsp:include>
 <!doctype html>
-<html lang="e">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Listas y Tablas</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
 </head>
 <body>
-<div>
-    <a href="index.jsp" title="Inicio"><span class="material-symbols-outlined">
-home
-</span> </a>
-    <a href="listasytablas.jsp" title="Lista y Tablas"> <span class="material-symbols-outlined">
-list
-</span> </a>
-    <a href="formularios.jsp">
-        <span class="material-symbols-outlined">
-edit_note
-</span>
-    </a>
-</div>
-
+<div class="contenedorLT">
 <h1>Listas y Tablas en HTML</h1>
 <!--Listas ordenadas-->
 <ol>
@@ -145,7 +133,7 @@ edit_note
         </td>
     </tr>
 </table>
-
+</div>
 
 
 </body>
