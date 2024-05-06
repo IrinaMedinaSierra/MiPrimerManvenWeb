@@ -29,18 +29,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    position: fixed;
 }
 .contenedor a{
     text-decoration: none;
     color:white;
 }
 .contenedorLT{
+    max-width: 80%;
     margin: auto;
 }
-.lista1{
-    display: flex;
-}
+
 .col-1{
     width: 8.33%;
 }
@@ -77,8 +75,6 @@ body{
 .col-12{
     width: 100%;
 }
-
-
 header,footer{
     background-color: darkgray;
 }
@@ -90,7 +86,8 @@ header,footer,.contenedorHijos,.contenedorHijos div{
 }
 
 header{
-    height: 200px;
+    height: 100vh;
+
     margin-bottom: 50px;
 }
 footer{
@@ -112,48 +109,5 @@ footer{
 
 /* Media Querys*/
 
-@media only screen and (width<=768px) {
-    [class*="col-"]{ /*todas las clases que comiencen con col-*/
-        width: 100%;
-    }
-    .contenedorHijos{
-        flex-direction: column;
-    }
 
-}
 
-@media only screen and (width>768px) and (width<=992px){
-    .col-1,.col-2,.col-3,.col-4,.col-5{
-        width: 50%;
-    }
-    .col-7,.col-8,.col-9,.col-10,.col-11{
-        width: 100%;
-    }
-
-}
-.borde-linea{
-    border: 1px solid darkslategrey;
-}
-.borde-doble{
-    border: 3px double darkslategrey;
-}
-.borde-puntos{
-    border: 1px dotted darkslategrey;
-}
-.borde-guiones{
-    border: 1px dashed darkslategrey;
-}
-
-.borde-redondo{
-    border-radius: 5px;
-}
-
-.borde-redondo-abajo{
-    border-radius: 0 0 10px 10px;
-}
-.borde-redondo-arriba{
-    border-radius: 10px 10px 0 0;
-}
-.borde-sombra{
-    box-shadow: 10px 10px 5px 0px rgba(204,204,204,1);
-}
