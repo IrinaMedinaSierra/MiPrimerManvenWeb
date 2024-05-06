@@ -33,7 +33,12 @@
 </section>
 
 <section class="contenedorHijos col-10">
-  <div class="col-12"><h1>Hijo 1</h1></div>
+  <div class="col-12"><h1>Hijo 3</h1></div>
+</section>
+
+<section class="contenedorHijos col-10">
+  <div class="col-6"><h1>Hijo 4</h1></div>
+  <div class="col-6"><h1>Hijo 5</h1></div>
 </section>
 
 <footer class="col-12">
