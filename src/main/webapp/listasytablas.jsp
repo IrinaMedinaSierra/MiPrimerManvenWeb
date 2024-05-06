@@ -18,10 +18,11 @@
 
 </head>
 <body>
-<div class="contenedorLT">
+<div class="contenedorLT col-7">
 <h1>Listas y Tablas en HTML</h1>
 <!--Listas ordenadas-->
-<ol>
+<div class="lista1">
+<ol class="col-4">
     <li>Pera</li>
     <li>Manzana</li>
     <li>Uva</li>
@@ -30,7 +31,7 @@
     <li>Piña</li>
 </ol>
 <!-- ol>li*5 -->
-<ol type="I"  reversed>
+<ol type="I"  reversed class="col-4">
     <li>Pera</li>
     <li>Manzana</li>
     <li>Uva</li>
@@ -38,7 +39,7 @@
     <li>Fresa</li>
     <li>Piña</li>
 </ol>
-<ol  start="25" >
+<ol  start="25" class="col-4" >
     <li>Pera</li>
     <li>Manzana</li>
     <li>Uva</li>
@@ -46,18 +47,18 @@
     <li>Fresa</li>
     <li>Piña</li>
 </ol>
-<h2>Listas encadenadas</h2>
+ </div>
+    <h2>Listas encadenadas</h2>
 <ol>
     <li>Pera</li>
     <li>Manzana
     <ol>
-    <li>Golden</li>
-    <li>Royal</li>
-    <li>Fuji</li>
+        <li>Golden</li>
+        <li>Royal</li>
+        <li>Fuji</li>
     </ol>
     </li>
     <li>Uva</li>
-
     <li>Plátano</li>
     <li>Fresa</li>
     <li>Piña</li>

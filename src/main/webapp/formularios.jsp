@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="Views/css/style.css">
 </head>
 <body>
+<div class="contenedorHijos col-10">
 <form action="index.jsp" method="get">
 
    <fieldset>
@@ -119,6 +120,8 @@
     <input type="submit" value="Enviar Formulario" name="submit1" >
     <input type="reset" value="Borrar Formulario">
 </form>
+</div>
+
 <script>
     const fecha=new Date();
     console.log(fecha.toLocaleDateString("es-US"));

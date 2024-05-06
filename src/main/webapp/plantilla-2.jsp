@@ -27,19 +27,24 @@
 
 </header>
 
-<section class="contenedorHijos col-10">
-  <div class="col-6"><h1>Hijo 1</h1></div>
+<section class="contenedorHijos col-12">
+  <div class="col-3 borde-linea borde-sombra"><h1>Hijo 1</h1></div>
+  <div class="col-6 borde-doble borde-sombra"><h1>Hijo 2</h1></div>
+  <div class="col-3 borde-guiones borde-sombra"><h1>Hijo 3</h1></div>
+</section>
+
+<section class="contenedorHijos col-12">
+  <div class="col-12 borde-puntos borde-redondo borde-sombra"><h1>Hijo 1</h1></div>
+</section>
+
+<section class="contenedorHijos col-12">
+  <div class="col-3"><h1>Hijo 1</h1></div>
   <div class="col-6"><h1>Hijo 2</h1></div>
+  <div class="col-3"><h1>Hijo 3</h1></div>
 </section>
 
-<section class="contenedorHijos col-10">
-  <div class="col-12"><h1>Hijo 1</h1></div>
-</section>
 
-<footer class="col-12">
-  <h1>Footer</h1>
-</footer>
-
+<jsp:include page="footer.jsp"></jsp:include>
 
 
 </body>

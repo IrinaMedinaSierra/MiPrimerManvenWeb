@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="Views/css/style.css">
 </head>
 <body>
-    <div class="contenedor">
+    <div class="contenedor borde-redondo-abajo">
         <a href="index.jsp" title="Inicio"><span class="material-symbols-outlined">
     home
     </span> </a>
@@ -35,6 +35,11 @@
     palette
     </span>
     </a>
+        <a href="plantilla-2.jsp" title="Estilo">
+           <span class="material-symbols-outlined">
+format_paint
+</span>
+        </a>
     </div>
 </body>
 </html>
